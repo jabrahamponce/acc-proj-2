@@ -1,0 +1,288 @@
+{
+  "resolvedId": "/home/advcc-proj-2/Desktop/Proj2/components/Form.vue?vue&type=style&index=0&scoped=f5d1086d&lang.css?inline&used",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\n.form-container {\n    text-align: center;\n}\n",
+      "start": 1714682087205,
+      "end": 1714682087205,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/advcc-proj-2/Desktop/Proj2/components/Form.vue"
+        ],
+        "names": [],
+        "mappings": ";AA0BA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtB",
+        "file": "/home/advcc-proj-2/Desktop/Proj2/components/Form.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\n    <div class=\"form-container\">\n        <form action=\"action_page.php\">\n            <label for=\"fname\">First Name</label><br>\n            <input type=\"text\" id=\"fname\" name=\"firstname\" placeholder=\"Your name..\"><br>\n\n            <label for=\"lname\">Last Name</label><br>\n            <input type=\"text\" id=\"lname\" name=\"lastname\" placeholder=\"Your last name..\"><br>\n\n            <label for=\"reason\">Reason</label><br>\n            <select id=\"reason\" name=\"reason\"><br>\n                <option value=\"inquiry\">Inquiry</option>\n                <option value=\"issue\">Issue</option>\n                <option value=\"complaint\">Complaint</option>\n                <option value=\"other\">other</option>\n            </select>\n\n            <label for=\"subject\">Subject</label><br>\n            <textarea id=\"subject\" name=\"subject\" placeholder=\"Write something..\" style=\"height:200px\"></textarea><br>\n\n            <input type=\"submit\" value=\"Submit\">\n        </form>\n    </div> \n</template>\n\n<style scoped>\n.form-container {\n    text-align: center;\n}\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1714682087205,
+      "end": 1714682087205,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1714682087205,
+      "end": 1714682087205,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1714682087206,
+      "end": 1714682087206,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1714682087206,
+      "end": 1714682087206,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1714682087206,
+      "end": 1714682087206,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".form-container{text-align:center}",
+      "start": 1714682087206,
+      "end": 1714682087208,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/home/advcc-proj-2/Desktop/Proj2/components/Form.vue",
+        "mappings": "AACA,gBACI,iBACJ",
+        "names": [],
+        "sources": [
+          "/home/advcc-proj-2/Desktop/Proj2/components/Form.vue"
+        ],
+        "sourcesContent": [
+          "\n.form-container {\n    text-align: center;\n}\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1714682087208,
+      "end": 1714682087208,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1714682087208,
+      "end": 1714682087208,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1714682087208,
+      "end": 1714682087208,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".form-container[data-v-f5d1086d]{text-align:center}",
+      "start": 1714682087208,
+      "end": 1714682087209,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/home/advcc-proj-2/Desktop/Proj2/components/Form.vue",
+        "mappings": "AAAA,iCAAgB,iBAAiB",
+        "names": [],
+        "sources": [
+          "/home/advcc-proj-2/Desktop/Proj2/components/Form.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1714682087209,
+      "end": 1714682087209,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682087209,
+      "end": 1714682087209,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682087209,
+      "end": 1714682087209,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1714682087209,
+      "end": 1714682087209,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1714682087209,
+      "end": 1714682087209,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1714682087209,
+      "end": 1714682087209,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682087209,
+      "end": 1714682087209,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1714682087209,
+      "end": 1714682087209,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1714682087209,
+      "end": 1714682087209,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default \".form-container[data-v-f5d1086d]{text-align:center}\"",
+      "start": 1714682087209,
+      "end": 1714682087209,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1714682087209,
+      "end": 1714682087209,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1714682087209,
+      "end": 1714682087209,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1714682087209,
+      "end": 1714682087209,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1714682087209,
+      "end": 1714682087209,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1714682087209,
+      "end": 1714682087209,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1714682087209,
+      "end": 1714682087209,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1714682087209,
+      "end": 1714682087209,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1714682087209,
+      "end": 1714682087209,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1714682087209,
+      "end": 1714682087210,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1714682087209,
+      "end": 1714682087210,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1714682087210,
+      "end": 1714682087210,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1714682087210,
+      "end": 1714682087210,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1714682087210,
+      "end": 1714682087210,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1714682087210,
+      "end": 1714682087210,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1714682087210,
+      "end": 1714682087210,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1714682087210,
+      "end": 1714682087210,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1714682087210,
+      "end": 1714682087210,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1714682087210,
+      "end": 1714682087210,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1714682087210,
+      "end": 1714682087210,
+      "order": "normal"
+    }
+  ]
+}

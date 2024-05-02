@@ -1,0 +1,215 @@
+{
+  "resolvedId": "/home/advcc-proj-2/Desktop/Proj2/components/Navbar.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\n    <div class=\"nav\">\n        <nuxt-link class=\"nav-item\" to=\"/\">Home &nbsp;</nuxt-link>\n        <nuxt-link class=\"nav-item\" to=\"/blog\">Blog posts &nbsp;</nuxt-link>\n        <nuxt-link class=\"nav-item\" to=\"/contact\">Contact &nbsp;</nuxt-link>\n        <!-- <nuxt-link to=\"/lorem\">Lorem &nbsp;</nuxt-link> -->\n    </div>\n</template>\n\n<style>\n.nav {\n    /* background-color: black; */\n    color: black;\n    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;\n    font-size: 30px;\n    width: 100%;\n    text-align: center;\n}\n\n.nav-item:link {\n    text-decoration: none;\n    color: #1764B9;\n    font-weight: bold;\n}\n.nav-item:visited {\n    text-decoration: none;\n    color: #1764B9;\n    font-weight: bold;\n}\n.nav-item:hover {\n    text-decoration: none;\n    color: black;\n}\n\n.nav-item:active {\n    text-decoration: none;\n    color: #ffffff;\n}\n\n</style>",
+      "start": 1714682085238,
+      "end": 1714682085303,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1714682085303,
+      "end": 1714682085303,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1714682085303,
+      "end": 1714682085303,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1714682085303,
+      "end": 1714682085303,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1714682085303,
+      "end": 1714682085303,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1714682085303,
+      "end": 1714682085303,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1714682085303,
+      "end": 1714682085303,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1714682085303,
+      "end": 1714682085303,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"nav\" }\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_nuxt_link = _resolveComponent(\"nuxt-link\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_nuxt_link, {\n      class: \"nav-item\",\n      to: \"/\"\n    }, {\n      default: _withCtx(() => [\n        _createTextVNode(\"Home  \")\n      ]),\n      _: 1\n    }),\n    _createVNode(_component_nuxt_link, {\n      class: \"nav-item\",\n      to: \"/blog\"\n    }, {\n      default: _withCtx(() => [\n        _createTextVNode(\"Blog posts  \")\n      ]),\n      _: 1\n    }),\n    _createVNode(_component_nuxt_link, {\n      class: \"nav-item\",\n      to: \"/contact\"\n    }, {\n      default: _withCtx(() => [\n        _createTextVNode(\"Contact  \")\n      ]),\n      _: 1\n    })\n  ]))\n}\n\nimport \"/home/advcc-proj-2/Desktop/Proj2/components/Navbar.vue?vue&type=style&index=0&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1714682085303,
+      "end": 1714682085305,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1714682085305,
+      "end": 1714682085305,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682085305,
+      "end": 1714682085305,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1714682085305,
+      "end": 1714682085305,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1714682085305,
+      "end": 1714682085305,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1714682085305,
+      "end": 1714682085305,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682085305,
+      "end": 1714682085305,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1714682085305,
+      "end": 1714682085305,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1714682085305,
+      "end": 1714682085305,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1714682085305,
+      "end": 1714682085305,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1714682085305,
+      "end": 1714682085305,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1714682085305,
+      "end": 1714682085305,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1714682085305,
+      "end": 1714682085305,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1714682085305,
+      "end": 1714682085305,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1714682085305,
+      "end": 1714682085305,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1714682085305,
+      "end": 1714682085305,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1714682085305,
+      "end": 1714682085305,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1714682085305,
+      "end": 1714682085306,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1714682085306,
+      "end": 1714682085306,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1714682085306,
+      "end": 1714682085306,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1714682085306,
+      "end": 1714682085306,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1714682085306,
+      "end": 1714682085306,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"/home/advcc-proj-2/Desktop/Proj2/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"nav\" }\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_nuxt_link = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_nuxt_link, {\n      class: \"nav-item\",\n      to: \"/\"\n    }, {\n      default: _withCtx(() => [\n        _createTextVNode(\"Home  \")\n      ]),\n      _: 1\n    }),\n    _createVNode(_component_nuxt_link, {\n      class: \"nav-item\",\n      to: \"/blog\"\n    }, {\n      default: _withCtx(() => [\n        _createTextVNode(\"Blog posts  \")\n      ]),\n      _: 1\n    }),\n    _createVNode(_component_nuxt_link, {\n      class: \"nav-item\",\n      to: \"/contact\"\n    }, {\n      default: _withCtx(() => [\n        _createTextVNode(\"Contact  \")\n      ]),\n      _: 1\n    })\n  ]))\n}\n\nimport \"/home/advcc-proj-2/Desktop/Proj2/components/Navbar.vue?vue&type=style&index=0&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1714682085306,
+      "end": 1714682085306,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1714682085306,
+      "end": 1714682085306,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1714682085306,
+      "end": 1714682085306,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1714682085306,
+      "end": 1714682085306,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "resolvedId": "/home/advcc-proj-2/Desktop/Proj2/components/Navbar.vue?vue&type=style&index=0&lang.css?inline&used",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\n.nav {\n    /* background-color: black; */\n    color: black;\n    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;\n    font-size: 30px;\n    width: 100%;\n    text-align: center;\n}\n\n.nav-item:link {\n    text-decoration: none;\n    color: #1764B9;\n    font-weight: bold;\n}\n.nav-item:visited {\n    text-decoration: none;\n    color: #1764B9;\n    font-weight: bold;\n}\n.nav-item:hover {\n    text-decoration: none;\n    color: black;\n}\n\n.nav-item:active {\n    text-decoration: none;\n    color: #ffffff;\n}\n\n",
+      "start": 1714682087173,
+      "end": 1714682087173,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/advcc-proj-2/Desktop/Proj2/components/Navbar.vue"
+        ],
+        "names": [],
+        "mappings": ";AAUA,CAAC,CAAC,CAAC,EAAE;IACD,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC;IAC7B,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;IACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;IACtE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACf,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACX,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtB;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACX,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACrB,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IACd,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;AACrB;AACA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACd,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACrB,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IACd,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;AACrB;AACA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACrB,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;AAChB;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACrB,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClB",
+        "file": "/home/advcc-proj-2/Desktop/Proj2/components/Navbar.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\n    <div class=\"nav\">\n        <nuxt-link class=\"nav-item\" to=\"/\">Home &nbsp;</nuxt-link>\n        <nuxt-link class=\"nav-item\" to=\"/blog\">Blog posts &nbsp;</nuxt-link>\n        <nuxt-link class=\"nav-item\" to=\"/contact\">Contact &nbsp;</nuxt-link>\n        <!-- <nuxt-link to=\"/lorem\">Lorem &nbsp;</nuxt-link> -->\n    </div>\n</template>\n\n<style>\n.nav {\n    /* background-color: black; */\n    color: black;\n    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;\n    font-size: 30px;\n    width: 100%;\n    text-align: center;\n}\n\n.nav-item:link {\n    text-decoration: none;\n    color: #1764B9;\n    font-weight: bold;\n}\n.nav-item:visited {\n    text-decoration: none;\n    color: #1764B9;\n    font-weight: bold;\n}\n.nav-item:hover {\n    text-decoration: none;\n    color: black;\n}\n\n.nav-item:active {\n    text-decoration: none;\n    color: #ffffff;\n}\n\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1714682087175,
+      "end": 1714682087175,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1714682087175,
+      "end": 1714682087175,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1714682087175,
+      "end": 1714682087175,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1714682087175,
+      "end": 1714682087175,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1714682087176,
+      "end": 1714682087176,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".nav{color:#000;font-family:Cambria,Cochin,Georgia,Times,Times New Roman,serif;font-size:30px;text-align:center;width:100%}.nav-item:link,.nav-item:visited{color:#1764b9;font-weight:700;text-decoration:none}.nav-item:hover{color:#000;text-decoration:none}.nav-item:active{color:#fff;text-decoration:none}",
+      "start": 1714682087176,
+      "end": 1714682087186,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/home/advcc-proj-2/Desktop/Proj2/components/Navbar.vue",
+        "mappings": "AACA,KAEI,UAAY,CACZ,8DAAsE,CACtE,cAAe,CAEf,iBAAkB,CADlB,UAEJ,CAOA,iCAEI,aAAc,CACd,eAAiB,CAFjB,oBAGJ,CACA,gBAEI,UAAY,CADZ,oBAEJ,CAEA,iBAEI,UAAc,CADd,oBAEJ",
+        "names": [],
+        "sources": [
+          "/home/advcc-proj-2/Desktop/Proj2/components/Navbar.vue"
+        ],
+        "sourcesContent": [
+          "\n.nav {\n    /* background-color: black; */\n    color: black;\n    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;\n    font-size: 30px;\n    width: 100%;\n    text-align: center;\n}\n\n.nav-item:link {\n    text-decoration: none;\n    color: #1764B9;\n    font-weight: bold;\n}\n.nav-item:visited {\n    text-decoration: none;\n    color: #1764B9;\n    font-weight: bold;\n}\n.nav-item:hover {\n    text-decoration: none;\n    color: black;\n}\n\n.nav-item:active {\n    text-decoration: none;\n    color: #ffffff;\n}\n\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1714682087186,
+      "end": 1714682087186,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1714682087186,
+      "end": 1714682087186,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1714682087186,
+      "end": 1714682087186,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".nav{color:#000;font-family:Cambria,Cochin,Georgia,Times,Times New Roman,serif;font-size:30px;text-align:center;width:100%}.nav-item:link,.nav-item:visited{color:#1764b9;font-weight:700;text-decoration:none}.nav-item:hover{color:#000;text-decoration:none}.nav-item:active{color:#fff;text-decoration:none}",
+      "start": 1714682087186,
+      "end": 1714682087187,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/home/advcc-proj-2/Desktop/Proj2/components/Navbar.vue",
+        "mappings": "AAAA,KAAK,UAAU,CAAC,8DAA8D,CAAC,cAAc,CAAC,iBAAiB,CAAC,UAAU,CAAC,iCAAiC,aAAa,CAAC,eAAe,CAAC,oBAAoB,CAAC,gBAAgB,UAAU,CAAC,oBAAoB,CAAC,iBAAiB,UAAU,CAAC,oBAAoB",
+        "names": [],
+        "sources": [
+          "/home/advcc-proj-2/Desktop/Proj2/components/Navbar.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default \".nav{color:#000;font-family:Cambria,Cochin,Georgia,Times,Times New Roman,serif;font-size:30px;text-align:center;width:100%}.nav-item:link,.nav-item:visited{color:#1764b9;font-weight:700;text-decoration:none}.nav-item:hover{color:#000;text-decoration:none}.nav-item:active{color:#fff;text-decoration:none}\"",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1714682087187,
+      "end": 1714682087187,
+      "order": "normal"
+    }
+  ]
+}

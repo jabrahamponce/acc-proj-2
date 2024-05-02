@@ -1,0 +1,215 @@
+{
+  "resolvedId": "/home/advcc-proj-2/Desktop/Proj2/components/BlogPostCard2.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\n    <div class=\"card\">\n        \n        <nuxt-link\n            to=\"/blog/responsive-web-applications\">\n            <h1>Responsive Web Applications</h1>\n        </nuxt-link>\n\n        <img\n            class=\"card-image\"\n            src=\"https://advcc-proj2.nyc3.cdn.digitaloceanspaces.com/media/taras-shypka-iFSvn82Xf.jpg\"\n            alt=\"...\"\n        />\n        \n        <br>\n        <div class=\"intro\">\n            <h3>\n            Responsive apps refer to creating a website that can be accessed from a desktop, mobile, or any interface.\n                A responsive app enables users to have a better experience irrespective of the device, OS, screen size, orientation, and browser platform. These apps are styled using an inline style, different layouts, and flexible images to ensure consistent UX.\n            </h3>\n        </div>\n        <br>\n        <div>\n            <nuxt-link\n            class=\"btn-blog\"\n            to=\"/blog/responsive-web-applications\">\n            Read more...\n            </nuxt-link>\n        </div>\n        <br>\n        <br>\n    </div>\n</template>\n\n\n<style>\nh1 {\n    color: #000000;\n}\n\n.btn-blog {\n    font-size: 20px;\n    font-weight: bold;\n    border: 1px solid #ffffff;\n    color: #ffffff;\n    padding: 5px;\n    background-color: #0c5f5f;\n}\n\n.card {\n    border: 0.5px solid #ffffff;\n    width: 80%;\n    margin: 0 auto;\n    background-color: #1764B9;\n}\n\n.card-image {\n    width: 30%;\n    margin: 0 auto;\n    background-color: #0f7696;\n}\n</style>",
+      "start": 1714682085487,
+      "end": 1714682085662,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1714682085662,
+      "end": 1714682085662,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1714682085662,
+      "end": 1714682085662,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1714682085662,
+      "end": 1714682085662,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1714682085662,
+      "end": 1714682085662,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1714682085662,
+      "end": 1714682085662,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1714682085662,
+      "end": 1714682085662,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1714682085662,
+      "end": 1714682085662,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"card\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"h1\", null, \"Responsive Web Applications\", -1)\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"img\", {\n  class: \"card-image\",\n  src: \"https://advcc-proj2.nyc3.cdn.digitaloceanspaces.com/media/taras-shypka-iFSvn82Xf.jpg\",\n  alt: \"...\"\n}, null, -1)\nconst _hoisted_4 = /*#__PURE__*/_createElementVNode(\"br\", null, null, -1)\nconst _hoisted_5 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"intro\" }, [\n  /*#__PURE__*/_createElementVNode(\"h3\", null, \" Responsive apps refer to creating a website that can be accessed from a desktop, mobile, or any interface. A responsive app enables users to have a better experience irrespective of the device, OS, screen size, orientation, and browser platform. These apps are styled using an inline style, different layouts, and flexible images to ensure consistent UX. \")\n], -1)\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"br\", null, null, -1)\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"br\", null, null, -1)\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"br\", null, null, -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_nuxt_link = _resolveComponent(\"nuxt-link\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_nuxt_link, { to: \"/blog/responsive-web-applications\" }, {\n      default: _withCtx(() => [\n        _hoisted_2\n      ]),\n      _: 1\n    }),\n    _hoisted_3,\n    _hoisted_4,\n    _hoisted_5,\n    _hoisted_6,\n    _createElementVNode(\"div\", null, [\n      _createVNode(_component_nuxt_link, {\n        class: \"btn-blog\",\n        to: \"/blog/responsive-web-applications\"\n      }, {\n        default: _withCtx(() => [\n          _createTextVNode(\" Read more... \")\n        ]),\n        _: 1\n      })\n    ]),\n    _hoisted_7,\n    _hoisted_8\n  ]))\n}\n\nimport \"/home/advcc-proj-2/Desktop/Proj2/components/BlogPostCard2.vue?vue&type=style&index=0&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1714682085662,
+      "end": 1714682085672,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1714682085672,
+      "end": 1714682085672,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682085672,
+      "end": 1714682085672,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1714682085672,
+      "end": 1714682085672,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1714682085672,
+      "end": 1714682085672,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1714682085672,
+      "end": 1714682085672,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682085672,
+      "end": 1714682085672,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1714682085672,
+      "end": 1714682085672,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1714682085672,
+      "end": 1714682085672,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1714682085672,
+      "end": 1714682085672,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1714682085672,
+      "end": 1714682085672,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1714682085672,
+      "end": 1714682085672,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1714682085672,
+      "end": 1714682085672,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1714682085672,
+      "end": 1714682085672,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1714682085672,
+      "end": 1714682085672,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1714682085672,
+      "end": 1714682085672,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1714682085672,
+      "end": 1714682085672,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1714682085672,
+      "end": 1714682085673,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1714682085673,
+      "end": 1714682085673,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1714682085673,
+      "end": 1714682085673,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1714682085673,
+      "end": 1714682085673,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1714682085673,
+      "end": 1714682085673,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"/home/advcc-proj-2/Desktop/Proj2/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"card\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"h1\", null, \"Responsive Web Applications\", -1)\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"img\", {\n  class: \"card-image\",\n  src: \"https://advcc-proj2.nyc3.cdn.digitaloceanspaces.com/media/taras-shypka-iFSvn82Xf.jpg\",\n  alt: \"...\"\n}, null, -1)\nconst _hoisted_4 = /*#__PURE__*/_createElementVNode(\"br\", null, null, -1)\nconst _hoisted_5 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"intro\" }, [\n  /*#__PURE__*/_createElementVNode(\"h3\", null, \" Responsive apps refer to creating a website that can be accessed from a desktop, mobile, or any interface. A responsive app enables users to have a better experience irrespective of the device, OS, screen size, orientation, and browser platform. These apps are styled using an inline style, different layouts, and flexible images to ensure consistent UX. \")\n], -1)\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"br\", null, null, -1)\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"br\", null, null, -1)\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"br\", null, null, -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_nuxt_link = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_nuxt_link, { to: \"/blog/responsive-web-applications\" }, {\n      default: _withCtx(() => [\n        _hoisted_2\n      ]),\n      _: 1\n    }),\n    _hoisted_3,\n    _hoisted_4,\n    _hoisted_5,\n    _hoisted_6,\n    _createElementVNode(\"div\", null, [\n      _createVNode(_component_nuxt_link, {\n        class: \"btn-blog\",\n        to: \"/blog/responsive-web-applications\"\n      }, {\n        default: _withCtx(() => [\n          _createTextVNode(\" Read more... \")\n        ]),\n        _: 1\n      })\n    ]),\n    _hoisted_7,\n    _hoisted_8\n  ]))\n}\n\nimport \"/home/advcc-proj-2/Desktop/Proj2/components/BlogPostCard2.vue?vue&type=style&index=0&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1714682085673,
+      "end": 1714682085673,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1714682085673,
+      "end": 1714682085673,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1714682085673,
+      "end": 1714682085673,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1714682085673,
+      "end": 1714682085673,
+      "order": "normal"
+    }
+  ]
+}

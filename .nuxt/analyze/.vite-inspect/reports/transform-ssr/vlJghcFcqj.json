@@ -1,0 +1,288 @@
+{
+  "resolvedId": "/home/advcc-proj-2/Desktop/Proj2/components/BlogPostCard3.vue?vue&type=style&index=0&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\nh1 {\n    color: #ffffff;\n}\n\n.btn-blog {\n    font-size: 20px;\n}\n\n.card {\n    border: 0.5px solid #ffffff;\n    width: 80%;\n    margin: 0 auto;\n    background-color: #1764B9;\n}\n\n.card-image {\n    width: 30%;\n    margin: 0 auto;\n    background-color: #0f7696;\n}\n",
+      "start": 1714682087458,
+      "end": 1714682087458,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/advcc-proj-2/Desktop/Proj2/components/BlogPostCard3.vue"
+        ],
+        "names": [],
+        "mappings": ";AAgCA,CAAC,EAAE;IACC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClB;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;AACnB;;AAEA,CAAC,CAAC,CAAC,CAAC,EAAE;IACF,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IAC3B,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;IACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,CAAC;IACd,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7B;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACR,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;IACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,CAAC;IACd,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7B",
+        "file": "/home/advcc-proj-2/Desktop/Proj2/components/BlogPostCard3.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\n    <div class=\"card\">\n\n        <nuxt-link to=\"/blog/javascript-web-applications\">\n            <h1>Learning JavaScript for Web Applications</h1>\n        </nuxt-link>\n\n        <img\n            class=\"card-image\"\n            src=\"https://advcc-proj2.nyc3.cdn.digitaloceanspaces.com/media/pexels-meneses-340146.jpg\"\n            alt=\"...\"\n        />\n        <br>\n        <div class=\"intro\">\n            <h3>\n            JavaScript is a popular programming language for building web, mobile, and desktop applications. There are many frameworks and libraries that have been built around JavaScript, with more likely being developed even as you are reading this article. If you plan to start learning JavaScript, some of them are worth learning as well.\n            </h3>\n        </div>\n        <br>\n        <div>\n            <nuxt-link\n            class=\"btn-blog\"\n            to=\"/blog/javascript-web-applications\">\n            Read more...\n            </nuxt-link>\n        </div>\n        <br>\n        <br>\n    </div>\n</template>\n\n<style>\nh1 {\n    color: #ffffff;\n}\n\n.btn-blog {\n    font-size: 20px;\n}\n\n.card {\n    border: 0.5px solid #ffffff;\n    width: 80%;\n    margin: 0 auto;\n    background-color: #1764B9;\n}\n\n.card-image {\n    width: 30%;\n    margin: 0 auto;\n    background-color: #0f7696;\n}\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1714682087458,
+      "end": 1714682087458,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1714682087458,
+      "end": 1714682087458,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1714682087458,
+      "end": 1714682087458,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1714682087458,
+      "end": 1714682087458,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1714682087458,
+      "end": 1714682087458,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": "h1{color:#fff}.btn-blog{font-size:20px}.card{background-color:#1764b9;border:.5px solid #fff;margin:0 auto;width:80%}.card-image{background-color:#0f7696;margin:0 auto;width:30%}",
+      "start": 1714682087458,
+      "end": 1714682087463,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/home/advcc-proj-2/Desktop/Proj2/components/BlogPostCard3.vue",
+        "mappings": "AACA,GACI,UACJ,CAEA,UACI,cACJ,CAEA,MAII,wBAAyB,CAHzB,sBAA2B,CAE3B,aAAc,CADd,SAGJ,CAEA,YAGI,wBAAyB,CADzB,aAAc,CADd,SAGJ",
+        "names": [],
+        "sources": [
+          "/home/advcc-proj-2/Desktop/Proj2/components/BlogPostCard3.vue"
+        ],
+        "sourcesContent": [
+          "\nh1 {\n    color: #ffffff;\n}\n\n.btn-blog {\n    font-size: 20px;\n}\n\n.card {\n    border: 0.5px solid #ffffff;\n    width: 80%;\n    margin: 0 auto;\n    background-color: #1764B9;\n}\n\n.card-image {\n    width: 30%;\n    margin: 0 auto;\n    background-color: #0f7696;\n}\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1714682087463,
+      "end": 1714682087463,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1714682087463,
+      "end": 1714682087463,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1714682087463,
+      "end": 1714682087463,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "h1{color:#fff}.btn-blog{font-size:20px}.card{background-color:#1764b9;border:.5px solid #fff;margin:0 auto;width:80%}.card-image{background-color:#0f7696;margin:0 auto;width:30%}",
+      "start": 1714682087463,
+      "end": 1714682087463,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/home/advcc-proj-2/Desktop/Proj2/components/BlogPostCard3.vue",
+        "mappings": "AAAA,GAAG,UAAU,CAAC,UAAU,cAAc,CAAC,MAAM,wBAAwB,CAAC,sBAAsB,CAAC,aAAa,CAAC,SAAS,CAAC,YAAY,wBAAwB,CAAC,aAAa,CAAC,SAAS",
+        "names": [],
+        "sources": [
+          "/home/advcc-proj-2/Desktop/Proj2/components/BlogPostCard3.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1714682087463,
+      "end": 1714682087463,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682087463,
+      "end": 1714682087463,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682087463,
+      "end": 1714682087463,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1714682087463,
+      "end": 1714682087463,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1714682087463,
+      "end": 1714682087463,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1714682087463,
+      "end": 1714682087463,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682087463,
+      "end": 1714682087463,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1714682087463,
+      "end": 1714682087464,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1714682087464,
+      "end": 1714682087464,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1714682087464,
+      "end": 1714682087464,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1714682087464,
+      "end": 1714682087464,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1714682087464,
+      "end": 1714682087464,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1714682087464,
+      "end": 1714682087464,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1714682087464,
+      "end": 1714682087464,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1714682087464,
+      "end": 1714682087464,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1714682087464,
+      "end": 1714682087464,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1714682087464,
+      "end": 1714682087464,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1714682087464,
+      "end": 1714682087464,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1714682087464,
+      "end": 1714682087464,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1714682087464,
+      "end": 1714682087464,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1714682087464,
+      "end": 1714682087464,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1714682087464,
+      "end": 1714682087464,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1714682087464,
+      "end": 1714682087464,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1714682087464,
+      "end": 1714682087464,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1714682087464,
+      "end": 1714682087465,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1714682087465,
+      "end": 1714682087465,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1714682087465,
+      "end": 1714682087465,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1714682087465,
+      "end": 1714682087465,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1714682087465,
+      "end": 1714682087465,
+      "order": "normal"
+    }
+  ]
+}

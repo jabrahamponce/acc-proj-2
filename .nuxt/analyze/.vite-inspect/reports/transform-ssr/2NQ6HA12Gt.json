@@ -1,0 +1,258 @@
+{
+  "resolvedId": "/home/advcc-proj-2/Desktop/Proj2/components/Form.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\n    <div class=\"form-container\">\n        <form action=\"action_page.php\">\n            <label for=\"fname\">First Name</label><br>\n            <input type=\"text\" id=\"fname\" name=\"firstname\" placeholder=\"Your name..\"><br>\n\n            <label for=\"lname\">Last Name</label><br>\n            <input type=\"text\" id=\"lname\" name=\"lastname\" placeholder=\"Your last name..\"><br>\n\n            <label for=\"reason\">Reason</label><br>\n            <select id=\"reason\" name=\"reason\"><br>\n                <option value=\"inquiry\">Inquiry</option>\n                <option value=\"issue\">Issue</option>\n                <option value=\"complaint\">Complaint</option>\n                <option value=\"other\">other</option>\n            </select>\n\n            <label for=\"subject\">Subject</label><br>\n            <textarea id=\"subject\" name=\"subject\" placeholder=\"Write something..\" style=\"height:200px\"></textarea><br>\n\n            <input type=\"submit\" value=\"Submit\">\n        </form>\n    </div> \n</template>\n\n<style scoped>\n.form-container {\n    text-align: center;\n}\n</style>",
+      "start": 1714682087130,
+      "end": 1714682087200,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1714682087201,
+      "end": 1714682087201,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1714682087201,
+      "end": 1714682087201,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1714682087201,
+      "end": 1714682087201,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1714682087201,
+      "end": 1714682087201,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1714682087201,
+      "end": 1714682087201,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1714682087201,
+      "end": 1714682087201,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1714682087201,
+      "end": 1714682087201,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1714682087201,
+      "end": 1714682087201,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1714682087201,
+      "end": 1714682087201,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<div${\n    _ssrRenderAttrs(_mergeProps({ class: \"form-container\" }, _attrs))\n  } data-v-f5d1086d><form action=\"action_page.php\" data-v-f5d1086d><label for=\"fname\" data-v-f5d1086d>First Name</label><br data-v-f5d1086d><input type=\"text\" id=\"fname\" name=\"firstname\" placeholder=\"Your name..\" data-v-f5d1086d><br data-v-f5d1086d><label for=\"lname\" data-v-f5d1086d>Last Name</label><br data-v-f5d1086d><input type=\"text\" id=\"lname\" name=\"lastname\" placeholder=\"Your last name..\" data-v-f5d1086d><br data-v-f5d1086d><label for=\"reason\" data-v-f5d1086d>Reason</label><br data-v-f5d1086d><select id=\"reason\" name=\"reason\" data-v-f5d1086d><br data-v-f5d1086d><option value=\"inquiry\" data-v-f5d1086d>Inquiry</option><option value=\"issue\" data-v-f5d1086d>Issue</option><option value=\"complaint\" data-v-f5d1086d>Complaint</option><option value=\"other\" data-v-f5d1086d>other</option></select><label for=\"subject\" data-v-f5d1086d>Subject</label><br data-v-f5d1086d><textarea id=\"subject\" name=\"subject\" placeholder=\"Write something..\" style=\"${\n    _ssrRenderStyle({\"height\":\"200px\"})\n  }\" data-v-f5d1086d></textarea><br data-v-f5d1086d><input type=\"submit\" value=\"Submit\" data-v-f5d1086d></form></div>`)\n}\n\nimport \"/home/advcc-proj-2/Desktop/Proj2/components/Form.vue?vue&type=style&index=0&scoped=f5d1086d&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/Form.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',\"data-v-f5d1086d\"]])",
+      "start": 1714682087201,
+      "end": 1714682087203,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/advcc-proj-2/Desktop/Proj2/components/Form.vue"
+        ],
+        "names": [],
+        "mappings": ";;;;EAAA;IAAA,gBAAA,cACS,KAAK,EAAC,gBAAgB,IAD/B;;IAAA,gBAkBkF,kBAAoB",
+        "sourcesContent": [
+          "<template>\n    <div class=\"form-container\">\n        <form action=\"action_page.php\">\n            <label for=\"fname\">First Name</label><br>\n            <input type=\"text\" id=\"fname\" name=\"firstname\" placeholder=\"Your name..\"><br>\n\n            <label for=\"lname\">Last Name</label><br>\n            <input type=\"text\" id=\"lname\" name=\"lastname\" placeholder=\"Your last name..\"><br>\n\n            <label for=\"reason\">Reason</label><br>\n            <select id=\"reason\" name=\"reason\"><br>\n                <option value=\"inquiry\">Inquiry</option>\n                <option value=\"issue\">Issue</option>\n                <option value=\"complaint\">Complaint</option>\n                <option value=\"other\">other</option>\n            </select>\n\n            <label for=\"subject\">Subject</label><br>\n            <textarea id=\"subject\" name=\"subject\" placeholder=\"Write something..\" style=\"height:200px\"></textarea><br>\n\n            <input type=\"submit\" value=\"Submit\">\n        </form>\n    </div> \n</template>\n\n<style scoped>\n.form-container {\n    text-align: center;\n}\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1714682087203,
+      "end": 1714682087203,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682087203,
+      "end": 1714682087203,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682087203,
+      "end": 1714682087203,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1714682087203,
+      "end": 1714682087203,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1714682087203,
+      "end": 1714682087203,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1714682087203,
+      "end": 1714682087203,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682087203,
+      "end": 1714682087203,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1714682087203,
+      "end": 1714682087204,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1714682087204,
+      "end": 1714682087204,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1714682087204,
+      "end": 1714682087204,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1714682087204,
+      "end": 1714682087204,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1714682087204,
+      "end": 1714682087204,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1714682087204,
+      "end": 1714682087204,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1714682087204,
+      "end": 1714682087204,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1714682087204,
+      "end": 1714682087204,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1714682087204,
+      "end": 1714682087204,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1714682087204,
+      "end": 1714682087204,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1714682087204,
+      "end": 1714682087204,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1714682087204,
+      "end": 1714682087205,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1714682087204,
+      "end": 1714682087205,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1714682087205,
+      "end": 1714682087205,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1714682087205,
+      "end": 1714682087205,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1714682087205,
+      "end": 1714682087205,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1714682087205,
+      "end": 1714682087205,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1714682087205,
+      "end": 1714682087205,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1714682087205,
+      "end": 1714682087205,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1714682087206,
+      "end": 1714682087206,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1714682087206,
+      "end": 1714682087206,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1714682087206,
+      "end": 1714682087206,
+      "order": "normal"
+    }
+  ]
+}

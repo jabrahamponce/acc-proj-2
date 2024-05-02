@@ -1,0 +1,288 @@
+{
+  "resolvedId": "/home/advcc-proj-2/Desktop/Proj2/components/BlogPostCard1.vue?vue&type=style&index=0&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\nh1 {\n    color: white;\n}\n\n.intro {\n    color: #ffffff;\n}\n\n.btn-blog {\n    font-size: 20px;\n}\n\n.card {\n    border: 0.5px solid #000000;\n    width: 80%;\n    margin: 0 auto;\n    background-color: #1764B9;\n}\n\n.card-image {\n    width: 40%;\n    margin: 0 auto;\n}\n",
+      "start": 1714682087436,
+      "end": 1714682087436,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/home/advcc-proj-2/Desktop/Proj2/components/BlogPostCard1.vue"
+        ],
+        "names": [],
+        "mappings": ";AAgCA,CAAC,EAAE;IACC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;AAChB;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACH,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClB;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;AACnB;;AAEA,CAAC,CAAC,CAAC,CAAC,EAAE;IACF,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IAC3B,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;IACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,CAAC;IACd,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7B;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACR,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;IACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,CAAC;AAClB",
+        "file": "/home/advcc-proj-2/Desktop/Proj2/components/BlogPostCard1.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\n    <div class=\"card\">\n        <nuxt-link to=\"/blog/learning-web-development\">\n            <h1>Learning Web Development 101</h1>\n        </nuxt-link>\n\n        <img\n            class=\"card-image\"\n            src=\"https://advcc-proj2.nyc3.cdn.digitaloceanspaces.com/media/pexels-goumbik-574070.jpg\"\n            alt=\"...\"\n        />\n        <br>\n        <div class=\"intro\">\n            <h3>\n            Website development broadly refers to the tasks and processes that are involved to create and maintain a website. That includes everything from the markup, to coding and scripting, network configuration, and CMS development.\n            </h3>\n        </div>\n        <br>\n        <div>\n\n            <nuxt-link\n            class=\"btn-blog\"\n            to=\"/blog/learning-web-development\">\n            Read more...\n            </nuxt-link>\n        </div>\n        <br>\n        <br>\n    </div>\n</template>\n\n<style>\nh1 {\n    color: white;\n}\n\n.intro {\n    color: #ffffff;\n}\n\n.btn-blog {\n    font-size: 20px;\n}\n\n.card {\n    border: 0.5px solid #000000;\n    width: 80%;\n    margin: 0 auto;\n    background-color: #1764B9;\n}\n\n.card-image {\n    width: 40%;\n    margin: 0 auto;\n}\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1714682087436,
+      "end": 1714682087436,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1714682087436,
+      "end": 1714682087436,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1714682087436,
+      "end": 1714682087436,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1714682087436,
+      "end": 1714682087436,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1714682087436,
+      "end": 1714682087436,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".intro,h1{color:#fff}.btn-blog{font-size:20px}.card{background-color:#1764b9;border:.5px solid #000;margin:0 auto;width:80%}.card-image{margin:0 auto;width:40%}",
+      "start": 1714682087436,
+      "end": 1714682087441,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/home/advcc-proj-2/Desktop/Proj2/components/BlogPostCard1.vue",
+        "mappings": "AAKA,UACI,UACJ,CAEA,UACI,cACJ,CAEA,MAII,wBAAyB,CAHzB,sBAA2B,CAE3B,aAAc,CADd,SAGJ,CAEA,YAEI,aAAc,CADd,SAEJ",
+        "names": [],
+        "sources": [
+          "/home/advcc-proj-2/Desktop/Proj2/components/BlogPostCard1.vue"
+        ],
+        "sourcesContent": [
+          "\nh1 {\n    color: white;\n}\n\n.intro {\n    color: #ffffff;\n}\n\n.btn-blog {\n    font-size: 20px;\n}\n\n.card {\n    border: 0.5px solid #000000;\n    width: 80%;\n    margin: 0 auto;\n    background-color: #1764B9;\n}\n\n.card-image {\n    width: 40%;\n    margin: 0 auto;\n}\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1714682087441,
+      "end": 1714682087441,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1714682087441,
+      "end": 1714682087441,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1714682087441,
+      "end": 1714682087441,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".intro,h1{color:#fff}.btn-blog{font-size:20px}.card{background-color:#1764b9;border:.5px solid #000;margin:0 auto;width:80%}.card-image{margin:0 auto;width:40%}",
+      "start": 1714682087441,
+      "end": 1714682087441,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/home/advcc-proj-2/Desktop/Proj2/components/BlogPostCard1.vue",
+        "mappings": "AAAA,UAAU,UAAU,CAAC,UAAU,cAAc,CAAC,MAAM,wBAAwB,CAAC,sBAAsB,CAAC,aAAa,CAAC,SAAS,CAAC,YAAY,aAAa,CAAC,SAAS",
+        "names": [],
+        "sources": [
+          "/home/advcc-proj-2/Desktop/Proj2/components/BlogPostCard1.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1714682087441,
+      "end": 1714682087441,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682087441,
+      "end": 1714682087441,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682087441,
+      "end": 1714682087441,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1714682087441,
+      "end": 1714682087441,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1714682087441,
+      "end": 1714682087441,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1714682087441,
+      "end": 1714682087441,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682087441,
+      "end": 1714682087441,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1714682087441,
+      "end": 1714682087442,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1714682087442,
+      "end": 1714682087442,
+      "order": "normal"
+    }
+  ]
+}

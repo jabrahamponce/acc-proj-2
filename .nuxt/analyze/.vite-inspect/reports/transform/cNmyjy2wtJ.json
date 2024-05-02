@@ -1,0 +1,215 @@
+{
+  "resolvedId": "/home/advcc-proj-2/Desktop/Proj2/pages/Blog/javascript-web-applications.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\n    <div>\n        <Navbar />\n        <h1>Learning JavaScript for Web Applications</h1>\n        <div class=\"blog-body\">\n            <img\n                class=\"headerImg\"\n                src=\"https://advcc-proj2.nyc3.cdn.digitaloceanspaces.com/media/taras-shypka-iFSvn82Xf.jpg\"\n                alt=\"...\"\n            />\n            \n            <div class=\"body-text\">\n                <p>\n                JavaScript is a popular programming language for building web, mobile, and desktop applications. There are many frameworks and libraries that have been built around JavaScript, with more likely being developed even as you are reading this article. If you plan to start learning JavaScript, some of them are worth learning as well.\n                </p>\n                <p>\n                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n                </p>\n                <p>\n                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n                </p>\n            </div>\n        </div>\n        <br>\n\n    </div>\n</template>\n\n<style>\nh1 {\n    text-align: center;\n}\n\n.headerImg {\n    width: 60%;\n    margin: 0 auto;\n}\n\n.blog-body {\n    text-align: center;\n    width: 80%;\n    margin: 0 auto;\n}\n\n.body-text {\n    text-align: left;\n    color: black;\n    font-size: larger;\n}\n</style>",
+      "start": 1714682084998,
+      "end": 1714682085180,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1714682085180,
+      "end": 1714682085180,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1714682085180,
+      "end": 1714682085180,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1714682085180,
+      "end": 1714682085180,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1714682085180,
+      "end": 1714682085180,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1714682085181,
+      "end": 1714682085181,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1714682085181,
+      "end": 1714682085181,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1714682085181,
+      "end": 1714682085181,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = /*#__PURE__*/_createElementVNode(\"h1\", null, \"Learning JavaScript for Web Applications\", -1)\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"blog-body\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    class: \"headerImg\",\n    src: \"https://advcc-proj2.nyc3.cdn.digitaloceanspaces.com/media/taras-shypka-iFSvn82Xf.jpg\",\n    alt: \"...\"\n  }),\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"body-text\" }, [\n    /*#__PURE__*/_createElementVNode(\"p\", null, \" JavaScript is a popular programming language for building web, mobile, and desktop applications. There are many frameworks and libraries that have been built around JavaScript, with more likely being developed even as you are reading this article. If you plan to start learning JavaScript, some of them are worth learning as well. \"),\n    /*#__PURE__*/_createElementVNode(\"p\", null, \" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \"),\n    /*#__PURE__*/_createElementVNode(\"p\", null, \" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \")\n  ])\n], -1)\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"br\", null, null, -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_Navbar = _resolveComponent(\"Navbar\")\n\n  return (_openBlock(), _createElementBlock(\"div\", null, [\n    _createVNode(_component_Navbar),\n    _hoisted_1,\n    _hoisted_2,\n    _hoisted_3\n  ]))\n}\n\nimport \"/home/advcc-proj-2/Desktop/Proj2/pages/Blog/javascript-web-applications.vue?vue&type=style&index=0&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1714682085181,
+      "end": 1714682085182,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1714682085182,
+      "end": 1714682085182,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682085182,
+      "end": 1714682085182,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1714682085182,
+      "end": 1714682085182,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1714682085182,
+      "end": 1714682085182,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1714682085182,
+      "end": 1714682085182,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682085182,
+      "end": 1714682085182,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1714682085182,
+      "end": 1714682085182,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1714682085182,
+      "end": 1714682085182,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1714682085182,
+      "end": 1714682085182,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1714682085182,
+      "end": 1714682085182,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1714682085182,
+      "end": 1714682085182,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1714682085182,
+      "end": 1714682085182,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1714682085182,
+      "end": 1714682085182,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1714682085182,
+      "end": 1714682085182,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1714682085182,
+      "end": 1714682085182,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1714682085182,
+      "end": 1714682085182,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1714682085182,
+      "end": 1714682085183,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1714682085183,
+      "end": 1714682085183,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1714682085183,
+      "end": 1714682085183,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1714682085183,
+      "end": 1714682085183,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1714682085183,
+      "end": 1714682085183,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"/home/advcc-proj-2/Desktop/Proj2/components/Navbar.vue\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = /*#__PURE__*/_createElementVNode(\"h1\", null, \"Learning JavaScript for Web Applications\", -1)\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"blog-body\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    class: \"headerImg\",\n    src: \"https://advcc-proj2.nyc3.cdn.digitaloceanspaces.com/media/taras-shypka-iFSvn82Xf.jpg\",\n    alt: \"...\"\n  }),\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"body-text\" }, [\n    /*#__PURE__*/_createElementVNode(\"p\", null, \" JavaScript is a popular programming language for building web, mobile, and desktop applications. There are many frameworks and libraries that have been built around JavaScript, with more likely being developed even as you are reading this article. If you plan to start learning JavaScript, some of them are worth learning as well. \"),\n    /*#__PURE__*/_createElementVNode(\"p\", null, \" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \"),\n    /*#__PURE__*/_createElementVNode(\"p\", null, \" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \")\n  ])\n], -1)\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"br\", null, null, -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_Navbar = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"div\", null, [\n    _createVNode(_component_Navbar),\n    _hoisted_1,\n    _hoisted_2,\n    _hoisted_3\n  ]))\n}\n\nimport \"/home/advcc-proj-2/Desktop/Proj2/pages/Blog/javascript-web-applications.vue?vue&type=style&index=0&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1714682085183,
+      "end": 1714682085184,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1714682085184,
+      "end": 1714682085184,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1714682085184,
+      "end": 1714682085184,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1714682085184,
+      "end": 1714682085184,
+      "order": "normal"
+    }
+  ]
+}

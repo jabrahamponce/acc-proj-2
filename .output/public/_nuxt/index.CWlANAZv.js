@@ -1,0 +1,1 @@
+import{_ as t}from"./Navbar.pAcPebtW.js";import{_}from"./CardGroup.CEi8sowQ.js";import{_ as c,c as r,b as o,a,o as s}from"./entry.DAVR6Ane.js";import"./nuxt-link.7RRoAoex.js";const m={},p=a("br",null,null,-1);function l(d,i){const e=t,n=_;return s(),r("div",null,[o(e),p,o(n)])}const B=c(m,[["render",l]]);export{B as default};

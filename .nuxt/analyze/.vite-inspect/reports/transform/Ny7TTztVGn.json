@@ -1,0 +1,221 @@
+{
+  "resolvedId": "/home/advcc-proj-2/Desktop/Proj2/components/BlogPostCard2.vue?vue&type=style&index=0&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\nh1 {\n    color: #000000;\n}\n\n.btn-blog {\n    font-size: 20px;\n    font-weight: bold;\n    border: 1px solid #ffffff;\n    color: #ffffff;\n    padding: 5px;\n    background-color: #0c5f5f;\n}\n\n.card {\n    border: 0.5px solid #ffffff;\n    width: 80%;\n    margin: 0 auto;\n    background-color: #1764B9;\n}\n\n.card-image {\n    width: 30%;\n    margin: 0 auto;\n    background-color: #0f7696;\n}\n",
+      "start": 1714682085750,
+      "end": 1714682085750
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1714682085750,
+      "end": 1714682085750,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1714682085750,
+      "end": 1714682085750,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1714682085750,
+      "end": 1714682085750,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": "h1{color:#000}.btn-blog{background-color:#0c5f5f;border:1px solid #fff;color:#fff;font-size:20px;font-weight:700;padding:5px}.card{background-color:#1764b9;border:.5px solid #fff;margin:0 auto;width:80%}.card-image{background-color:#0f7696;margin:0 auto;width:30%}",
+      "start": 1714682085750,
+      "end": 1714682085767,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1714682085767,
+      "end": 1714682085767,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1714682085767,
+      "end": 1714682085767,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1714682085767,
+      "end": 1714682085767,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "h1{color:#000}.btn-blog{background-color:#0c5f5f;border:1px solid #fff;color:#fff;font-size:20px;font-weight:700;padding:5px}.card{background-color:#1764b9;border:.5px solid #fff;margin:0 auto;width:80%}.card-image{background-color:#0f7696;margin:0 auto;width:30%}",
+      "start": 1714682085767,
+      "end": 1714682085767,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1714682085767,
+      "end": 1714682085767,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682085767,
+      "end": 1714682085767,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1714682085767,
+      "end": 1714682085767,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1714682085767,
+      "end": 1714682085767,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1714682085767,
+      "end": 1714682085767,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1714682085767,
+      "end": 1714682085767,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1714682085767,
+      "end": 1714682085767,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1714682085767,
+      "end": 1714682085767,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1714682085767,
+      "end": 1714682085767,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1714682085767,
+      "end": 1714682085767,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1714682085768,
+      "end": 1714682085768,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1714682085768,
+      "end": 1714682085768,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1714682085768,
+      "end": 1714682085768,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1714682085768,
+      "end": 1714682085768,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1714682085768,
+      "end": 1714682085768,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1714682085768,
+      "end": 1714682085768,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1714682085768,
+      "end": 1714682085768,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1714682085768,
+      "end": 1714682085768,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1714682085768,
+      "end": 1714682085768,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1714682085768,
+      "end": 1714682085768,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1714682085768,
+      "end": 1714682085768,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1714682085768,
+      "end": 1714682085768,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1714682085768,
+      "end": 1714682085768,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1714682085768,
+      "end": 1714682085768,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1714682085768,
+      "end": 1714682085768,
+      "order": "normal"
+    }
+  ]
+}
