@@ -5,7 +5,7 @@
         <div class="blog-body">
             <img
                 class="headerImg"
-                src="https://storage.googleapis.com/proj1-advcc/media/9SoCnyQmkzI.jpg"
+                src="https://advcc-proj2.nyc3.cdn.digitaloceanspaces.com/media/pexels-goumbik-574070.jpg"
                 alt="..."
             />
         
@@ -50,7 +50,7 @@ h1 {
 
 .body-text {
     text-align: left;
-    color: white;
+    color: black;
     font-size: larger;
 }
 </style>

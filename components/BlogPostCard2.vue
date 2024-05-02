@@ -8,12 +8,16 @@
 
         <img
             class="card-image"
-            src="https://storage.googleapis.com/proj1-advcc/media/gySMaocSdqs.jpg"
+            src="https://advcc-proj2.nyc3.cdn.digitaloceanspaces.com/media/taras-shypka-iFSvn82Xf.jpg"
             alt="..."
         />
+        
         <br>
         <div class="intro">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatum mollitia porro, minus fugiat aliq</h3>
+            <h3>
+            Responsive apps refer to creating a website that can be accessed from a desktop, mobile, or any interface.
+                A responsive app enables users to have a better experience irrespective of the device, OS, screen size, orientation, and browser platform. These apps are styled using an inline style, different layouts, and flexible images to ensure consistent UX.
+            </h3>
         </div>
         <br>
         <div>
@@ -27,6 +31,7 @@
         <br>
     </div>
 </template>
+
 
 <style>
 h1 {
@@ -46,7 +51,7 @@ h1 {
     border: 0.5px solid #ffffff;
     width: 80%;
     margin: 0 auto;
-    background-color: #351226;
+    background-color: #1764B9;
 }
 
 .card-image {

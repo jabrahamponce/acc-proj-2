@@ -1,18 +1,14 @@
 <template>
-    <div>
-      <h1>Hello World!</h1>
-    </div>
-  </template>
+  <div>
+    <Navbar />
+    <br />
+    <CardGroup />
+  </div>
+</template>
 
-<script>
-import CardGroup from '~/components/CardGroup.vue';
-
-</script>
-
-  
 <style>
 body {
-  background-color: white;
+  background-color: #D8F8F7;
 }
 
 h1 {
@@ -22,7 +18,7 @@ h1 {
 }
 
 #contact {
-    text-align: center;
-    font-weight: bold;
+  text-align: center;
+  font-weight: bold;
 }
 </style>
